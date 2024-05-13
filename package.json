@@ -1,7 +1,7 @@
 {
-  "name": "@cocalc/local-storage-lru",
-  "version": "2.4.3",
-  "description": "Simple LRU cache for a browser's localStorage",
+  "name": "@sleaze/local-storage-lru",
+  "version": "2.4.5",
+  "description": "Simple LRU cache for a web browser localStorage",
   "main": "./lib/index.js",
   "exports": {
     ".": "./lib/index.js"
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sagemathinc/local-storage-lru.git"
+    "url": "git+https://github.com/sleaze/local-storage-lru.git"
   },
   "keywords": [
     "localStorage",
@@ -34,7 +34,7 @@
   ],
   "author": "Sagemath, Inc.",
   "license": "APACHE-2.0",
-  "homepage": "https://sagemathinc.github.io/local-storage-lru/",
+  "homepage": "https://sleaze.github.io/local-storage-lru/",
   "devDependencies": {
     "@types/jest": "^29.5.11",
     "istanbul-badges-readme": "^1.8.1",
@@ -52,6 +52,9 @@
     "lib/**/*"
   ],
   "bugs": {
-    "url": "https://github.com/sagemathinc/local-storage-lru/issues"
+    "url": "https://github.com/sleaze/local-storage-lru/issues"
+  },
+  "dependencies": {
+    "node": "^18.20.2"
   }
 }

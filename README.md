@@ -1,6 +1,10 @@
 # LRU Cache for Browser's Local Storage
 
-[![npm version](https://badge.fury.io/js/@cocalc%2Flocal-storage-lru.svg)](https://badge.fury.io/js/@cocalc%2Flocal-storage-lru) ![npm](https://img.shields.io/npm/dw/@cocalc/local-storage-lru) &nbsp; [![Documentation Online](https://img.shields.io/badge/documentation-online-blue.svg)](https://sagemathinc.github.io/local-storage-lru/) &nbsp; [![Node.js CI](https://github.com/sagemathinc/local-storage-lru/actions/workflows/node.js.yml/badge.svg)](https://github.com/sagemathinc/local-storage-lru/actions/workflows/node.js.yml) ![Functions](https://img.shields.io/badge/functions-100%25-brightgreen.svg?style=flat) ![Branches](https://img.shields.io/badge/branches-90.94%25-brightgreen.svg?style=flat)
+[![npm version](https://badge.fury.io/js/@sleaze%2Flocal-storage-lru.svg)](https://badge.fury.io/js/@sleaze%2Flocal-storage-lru) ![npm](https://img.shields.io/npm/dw/@sleaze/local-storage-lru) &nbsp; [![Documentation Online](https://img.shields.io/badge/documentation-online-blue.svg)](https://sleaze.github.io/local-storage-lru/) &nbsp; [![Node.js CI](https://github.com/sleaze/local-storage-lru/actions/workflows/node.js.yml/badge.svg)](https://github.com/sleaze/local-storage-lru/actions/workflows/node.js.yml) ![Functions](https://img.shields.io/badge/functions-100%25-brightgreen.svg?style=flat) ![Branches](https://img.shields.io/badge/branches-85.31%25-yellow.svg?style=flat)
+
+Welcome to [LocalStorageLRU](https://github.com/sleaze/local-storage-lru), a browser LocalStorage Javascript cache.
+
+If you are trying to use this package, check out [https://www.npmjs.com/package/@sleaze/local-storage-lru](https://www.npmjs.com/package/@sleaze/local-storage-lru).
 
 ## Problem
 
@@ -78,7 +82,7 @@ for (const [k, v] of storage) {
 entries; // equals: [[ 'key1', '1' ], [ 'key2', '2' ], [ 'key3', '3' ]]
 ```
 
-**For more, check out the [documentation](https://sagemathinc.github.io/local-storage-lru/) or the [tests](__tests__/test-lru.ts).**
+**For more, check out the [documentation](https://sleaze.github.io/local-storage-lru/) or the [tests](__tests__/test-lru.ts).**
 
 ## Development
 
@@ -90,9 +94,13 @@ There are some hooks registered, see link above, to check for clean git tree, al
 
 ```bash
 npm version patch
-npm publish
+npm publish --access public
 ```
 
 ## License
 
 [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
+
+## Credit
+
+LocalStorageLRU was originally forked from https://github.com/sagemathinc/local-storage-lru.
