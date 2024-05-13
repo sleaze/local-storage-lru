@@ -1,6 +1,6 @@
 {
   "name": "@sleaze/local-storage-lru",
-  "version": "2.4.6",
+  "version": "2.4.7",
   "description": "Simple LRU cache for a web browser localStorage",
   "main": "./lib/index.js",
   "exports": {
